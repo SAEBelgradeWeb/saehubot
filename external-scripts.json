@@ -11,5 +11,6 @@
   "hubot-shipit",
   "hubot-youtube",
   "hubot-tell",
-  "hubot-principles"
+  "hubot-principles",
+  "hubot-heroku-keepalive"
 ]
