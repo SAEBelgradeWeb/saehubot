@@ -20,6 +20,7 @@ upon have been set.
 
 You can start Marvin locally by running:
 
+
     % bin/hubot
 
 You'll see some start up output and a prompt:
@@ -47,6 +48,7 @@ easier way to do this has been implemented.
 
     grep -o 'hubot-[a-z0-9_-]\+' external-scripts.json | \
       xargs -n1 -i sh -c 'sed -n "/^# Configuration/,/^#$/ s/^/{} /p" \
+
           $(find node_modules/{}/ -name "*.coffee")' | \
         awk -F '#' '{ printf "%-25s %s\n", $1, $2 }'
 
