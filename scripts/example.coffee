@@ -8,7 +8,7 @@
 #
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
-module.exports = (robot) ->
+#module.exports = (robot) ->
   # robot.hear /badger/i, (msg) ->
   #   msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
@@ -31,11 +31,11 @@ module.exports = (robot) ->
   #   msg.send "#{msg.message.text}? That's a Paddlin'"
   #
   #
-  enterReplies = ['Zdravo', 'Sta mogu da ucinim za vas?', 'De si bre brate robote', 'Ja sam veoma emotivan robot i zeleo bih da se mazim.', 'Molim te da me usvojis! Molim te!', 'Alo jel to Facebook? Da li mozete da mi objavite status?']
+  #enterReplies = ['Zdravo', 'Sta mogu da ucinim za vas?', 'De si bre brate robote', 'Ja sam veoma emotivan robot i zeleo bih da se mazim.', 'Molim te da me usvojis! Molim te!', 'Alo jel to Facebook? Da li mozete da mi objavite status?']
   # leaveReplies = ['Are you still there?', 'Target lost', 'Searching']
   #
-  robot.enter (msg) ->
-     msg.send msg.random enterReplies
+  #robot.enter (msg) ->
+  #   msg.send msg.random enterReplies
   # robot.leave (msg) ->
   #   msg.send msg.random leaveReplies
   #
